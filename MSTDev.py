@@ -124,21 +124,6 @@ def hav_dist(lat1, lon1, lat2, lon2):
     return R * 2 * math.atan2(math.sqrt(a),math.sqrt(1-a))
     
 #def mst_algo(locs,dist):
-#    name_or_team = "lwang19"
-#    mst = []
-#
-#    """
-#    Put your MST algorithm code here
-#    join clusters together. choose the nearest cluster. then join the nest nearest cluster...
-#    """
-#    #change dist from dictionary to list of lists
-#    item_list = [[k,v] for k,v in dist.items()]
-#    
-#    print [x[1] for x in item_list]
-#
-#    print [x for x in item_list if (x[1] == min(x[1] for x in item_list))]
-#            
-#    return name_or_team, mst
 
 
 from mst1 import mst_algo
